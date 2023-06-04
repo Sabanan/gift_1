@@ -1013,7 +1013,7 @@ Mask
   }
   .header #navbar a{
     font-size: 20px;
-    padding-right: 1.5rem;
+    padding-right: 3rem;
 }
 }@media(max-width:425px){
   #home-sec img{
@@ -1024,14 +1024,14 @@ Mask
     width: 400px;
   }
   .header #navbar a{
-    padding-right: 3rem;
+    padding-right: 3.5rem;
 }
 }@media(max-width:400px){
   #home-sec img{
     width: 395px;
   }
   .header #navbar a{
-    padding-right: 5rem;
+    padding-right: 4.5rem;
 }
 }@media(max-width:390px){
   #home-sec img{
