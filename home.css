@@ -1030,10 +1030,16 @@ Mask
   #home-sec img{
     width: 395px;
   }
-}@media(max-width:395px){
+  .header #navbar a{
+    padding-right: 5rem;
+}
+}@media(max-width:390px){
   #home-sec img{
     width: 375px;
   }
+  .header #navbar a{
+    padding-right: 5.5rem;
+}
 }@media(max-width:375px){
   #home-sec img{
     width: 365px;
