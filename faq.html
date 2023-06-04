@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+        <div class="container-faq">
+          <h2>Frequently Asked Questions About Us</h2>
+          <div class="accordion">
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">1.) Isn't long distance tough ?</span>
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Yes , it is but i dont mind waiting for her and making things special for our future times.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-2" aria-expanded="false">
+                <span class="accordion-title">2.) Do you have fight which are unnecessary ?</span>
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Yes we definitly do but my mother says if you have fights which are unncessary and doesn't last long ... that means there is
+                  a lot of love and care between you two.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-3" aria-expanded="false">
+                <span class="accordion-title">3.) Why do you want to wait so long for her ? </span>
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Because she is worth it :) . 
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-4" aria-expanded="false">
+                <span class="accordion-title">4.) Dont you both get tired of eachother?</span>
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Yes but doesn't everyone get tired of everyone sometimes and most importantly getting tired sometimes doesn't mean everything is over..NO ... 
+                  sometimes your partner is going through a lot or she/he is just tired or exausted or you are getting a bit too sticky or demanding ..  we should 
+                  just try to know the real reason behind it and act accordingly.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-4" aria-expanded="false">
+                <span class="accordion-title">5.) What is your aim ? </span>
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  My aim with her is just to marry her and trap her with me for her entire life.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-4" aria-expanded="false">
+                <span class="accordion-title">6.) In the scale of 1-10 how serious are you both for eachother ? </span>
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  10
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+        <script>
+            const items = document.querySelectorAll('.accordion button');
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+
+
+        </script>
+</body>
+</html>

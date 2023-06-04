@@ -1,0 +1,90 @@
+/*info section starts*/
+#portfolio{
+  position: relative;
+  top: 26rem;
+}
+
+#portfolio .box-container{
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+  }
+  #portfolio .box-container .box{
+    height: 39rem;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    margin: 12px;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  #portfolio .box-container .box span{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-size: 30px;
+    color:var(--orange);
+  }  #portfolio .box-container .box img{
+    width: 100%;
+    height: 100%;
+  }
+  #portfolio .box-container .box h1{
+    font-size: 31px;
+    color: var(--orange);
+  }
+  #portfolio .box-container .box p{
+    line-height: 30px;
+    color: white;
+    
+  }
+  #portfolio .box-container .box::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(52 26 93);
+    clip-path: circle(5% at 92% 9%);
+    transition: .3s linear;
+  }
+  #portfolio .box-container .box:hover::before{
+    clip-path: circle(100%);
+  
+  }
+  #portfolio .box-container .box .content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 60rem;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition-delay: .3s;
+    padding: 67px;
+  
+  }
+  #portfolio .box-container .box:hover .content{
+    top: 0;
+  }
+  #portfolio .box-container .box:hover .content h1{
+    padding-bottom: 4rem;
+  }
+  #portfolio .box-container .box #saheba{
+    width: 100%;
+    height: 100%;
+  } 
+  #portfolio .box-container .box #adnan{
+    width: 100%;
+    height: 110%;
+  } 
+  #portfolio .box-container .box #drive{
+    width: 100%;
+    height: 115%;
+  }
+  
+  
