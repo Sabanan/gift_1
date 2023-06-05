@@ -358,9 +358,9 @@
       height: 40rem;
       }
     }
-    @media (max-width: 375px) {
+    @media (max-width: 380px) {
       .mentor .box-container .n3{
-        height: 45rem;
+        height: 47rem;
       }
     }
 
