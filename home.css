@@ -885,6 +885,8 @@ Mask
 
 
 
+
+
 @media(max-width:1300px){
   .header #navbar a{
     font-size: 40px;
@@ -937,22 +939,7 @@ Mask
       }
       
 }
-@media(max-width:550px){
-    .header #navbar a{
-      font-size: 26px;
-      padding-right: 1rem;
-  }
-  #home-sec img{
-    width: 550px;
-  }
-  .header #navbar{
-    height: 3.3rem;
-  }
-  #menubar,#home,#acc-btn{
-    top: 22px;
-  }
-  
-}
+
 @media(max-width:640px){
   #home-sec img{
     width: 626px;
@@ -978,7 +965,24 @@ Mask
     font-size: 22px;
     padding-right: 1rem;
 }
-}@media(max-width:526px){
+}
+@media(max-width:550px){
+  .header #navbar a{
+    font-size: 26px;
+    padding-right: 1rem;
+}
+#home-sec img{
+  width: 550px;
+}
+.header #navbar{
+  height: 3.3rem;
+}
+#menubar,#home,#acc-btn{
+  top: 22px;
+}
+
+}
+@media(max-width:526px){
   #home-sec img{
     width: 506px;
   }
@@ -991,6 +995,9 @@ Mask
 @media(max-width:486px){
   #home-sec img{
     width: 476px;
+  }
+  .call p{
+    font-size: 1.5rem;
   }
 }
 @media(max-width:476px){
@@ -1011,9 +1018,12 @@ Mask
   #home-sec img{
     width: 425px;
   }
+  .call p{
+    font-size: 1.4rem;
+  }
   .header #navbar a{
     font-size: 20px;
-    padding-right: 3rem;
+    padding-right: 1.5rem;
 }
 }@media(max-width:425px){
   #home-sec img{
@@ -1024,14 +1034,20 @@ Mask
     width: 400px;
   }
   .header #navbar a{
-    padding-right: 3.5rem;
+    padding-right: 3rem;
+}
+.call p{
+  font-size: 1.35rem;
 }
 }@media(max-width:400px){
   #home-sec img{
     width: 395px;
   }
   .header #navbar a{
-    padding-right: 4.5rem;
+    padding-right: 5rem;
+}
+.call p{
+  font-size: 1.25rem;
 }
 }@media(max-width:390px){
   #home-sec img{
@@ -1043,5 +1059,8 @@ Mask
 }@media(max-width:375px){
   #home-sec img{
     width: 365px;
+  }
+  .call p{
+    font-size: 1.2rem;
   }
 }
