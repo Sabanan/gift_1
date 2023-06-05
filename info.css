@@ -99,6 +99,10 @@
   font-size: 22px;
 
 }
+#portfolio .box-container .box p {
+  font-size: 15px;
+  line-height: 27px;
+}
   
 }
 @media (max-width: 380px) {
@@ -112,12 +116,18 @@
   font-size: 20px;
 
 }
+#portfolio .box-container .box p {
+  line-height: 25px;
+}
 }
   @media (max-width: 370px) {
     #portfolio .box-container .box {
       height: 32.5rem;
       width: 34.5rem;
     
+  }
+  #portfolio .box-container .box p {
+    line-height: 25px;
   }
 #portfolio .box-container .box span {
 
@@ -132,6 +142,9 @@
       width: 34rem;
     
   }
+  #portfolio .box-container .box p {
+    line-height: 24px;
+  }
 #portfolio .box-container .box span {
 
   font-size: 18px;
@@ -144,10 +157,12 @@
       width: 33.5rem;
     
   }
+  #portfolio .box-container .box p {
+    line-height: 23px;
+  }
 #portfolio .box-container .box span {
 
     font-size: 17px;
 
 }
-    
-  }
+}
