@@ -24,12 +24,12 @@
     border-radius: 14px;
     
   }
-  
+   
   .team .box img{
-    height:17rem;
-    width:17rem;
-    border-radius: 50%;
-    border: 10px solid rgb(52 26 93);
+    width:26.5rem;
+    height:28rem;
+    border-radius: 10%;
+    border: 7px solid rgb(52 26 93);
     object-fit: cover;
     margin-bottom: 1rem;
   }
@@ -51,6 +51,14 @@
     padding:1rem 0;
   }
   
-  /* /team section ends/ */
-  
+
+
+  .box video{
+    width:26.5rem;
+    height:28rem;
+    border-radius: 10%;
+    border: 7px solid rgb(52 26 93);
+  }
+
+
   
